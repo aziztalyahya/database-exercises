@@ -1,4 +1,8 @@
+select 'using codeup_test db' as 'use statement';
+
 USE codeup_test_db;
+
+select 'truncating albums' as 'Truncate statement';
 truncate albums;
 
 insert into albums (artist, name, release_date, genre, sales) values
